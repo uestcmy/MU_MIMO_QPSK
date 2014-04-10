@@ -5,6 +5,7 @@ SOURCES += \
     qpsk3.cpp
 
 HEADERS += \
+    qpsk3.h \
     qpsk3.h
 
 FORMS += \
