@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     QPSK3 w3;
     w3.resize(600,450);
     w3.show();
-    w3.setWindowTitle("CoMP QPSK Rx2 ( Port:7010)");
+    w3.setWindowTitle("CoMP QPSK Rx3 ( Port:7011)");
 
 
 

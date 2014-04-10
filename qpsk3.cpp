@@ -61,7 +61,7 @@ QPSK3::QPSK3(QWidget *parent) :
        sockser_chl1=socket(AF_INET,SOCK_DGRAM,0);
        addrSrv_chl1.sin_addr.s_addr=htonl(INADDR_ANY);
        addrSrv_chl1.sin_family=AF_INET;
-       addrSrv_chl1.sin_port=htons(7010);//server : receive port number
+       addrSrv_chl1.sin_port=htons(7011);//server : receive port number
        bind(sockser_chl1,(sockaddr*)&addrSrv_chl1,sizeof(sockaddr));
 
        id1 = startTimer(100);
@@ -537,7 +537,7 @@ void QPSK3::InputManagement(){
         }
         if( i %12== 6 ){
              pilot[i][0] =  1.0/sqrt(2);
-             pilot[i][1] =  -1.0/sqrt(2);
+             pilot[i][1] =  1.0/sqrt(2);
         }
     }
 }
