@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qpsk3.ui'
 **
-** Created: Mon Apr 14 16:07:25 2014
+** Created: Tue Apr 15 17:14:47 2014
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
