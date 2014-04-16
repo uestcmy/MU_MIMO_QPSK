@@ -30,9 +30,9 @@ int main(int argc, char *argv[])
 */
 
     QPSK3 w3;
-    w3.setGeometry(530,5,251,250);
+    w3.setGeometry(780,5,251,250);
     w3.show();
-    w3.setWindowTitle("MU-MIMO Stream3  ( Port:7015)");
+    w3.setWindowTitle("MU-MIMO Stream4 ( Port:7016)");
 
 
 
