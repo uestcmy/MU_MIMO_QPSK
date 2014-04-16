@@ -33,6 +33,7 @@ public:
     double char2double(char *str);
     double char2int(char *str);
     int ber();
+    void sys_function();
 protected:
     void initializeGL();
     void resizeGL(int w, int h);
